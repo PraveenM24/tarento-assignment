@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.container>.header {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.container>.inputForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    width: 60vw;
+}
+
+.MuiFormControl-root {
+    flex: 1;
+}
+
+.MuiOutlinedInput-root {
+    border-radius: 5px 0px 0px 5px !important;
+}
+
+.container>.inputForm>.MuiBox-root>.button {
+    border-radius: 0px 5px 5px 0px;
+    text-transform: none !important;
+    height: 100%;
+}
+
+.container>.resultTableContainer {
+    margin: 30px 0px;
+    height: 400px;
+    width: 60vw;
+}
+
+.container>.resultTableContainer>h4 {
+    margin-bottom: 10px;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+    font-weight: bold !important;
+}
